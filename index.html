@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CV</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="mycv.css">
+    
 </head>
 <body>
   <header>
       <section>
           <h1>ANASTASIYA<br>
               TIMINA</h1>
-              <i class="fab fa-angellist"></i>
-          +375447657560 <br>
-          <i class="far fa-envelope"></i>
-          timinanastena@gmail.com
+            <ul>
+                <li>+375447657560</li>
+                <li>timinanastena@gmail.comL</li>
+            </ul>
+         
       </section>
       <figure>
           <div class="foto">
@@ -57,17 +58,32 @@
             <h4>EXPERIENCE</h4>
             <p>I have been working in a telecommunications company for 10 years.Participated in the development of various projects for the company</p>
         </div>
+        <div>
+            <h4>MY CODE</h4>
+           <pre>
+               <code>
+                function firstLettersFromString(str){
+                    var str = "Каждый охотник желает знать, где сидит фазан."; 
+                    //var newArr = firstLettersFromString(str);
+                    var arr = str.split (' ');
+                    var  x = arr.map (function(item){
+                        return item[0];
+                    });
+                    
+                    console.log(x); // [К,о,ж,з,г,с,ф]
+               </code>
+            </pre>
+        </div>
       </article>
   </main>
   <hr class="blockseparator">
   <footer>
-      <div class="linkgit"> 
+      <div> 
         <a href="https://github.com/AnastasiyaTimina" target="_blank"> 
-            <i class="fab fa-github"></i>
             AnastasiyaTimina </a>
       </div>
       <div>2021</div>
-      <div class="fotorss">
+      <div >
         <a href="https://rollingscopes.com/" target="_blank">
         <img src="rss.png" alt="Логотип курса"></a>
       </div>
