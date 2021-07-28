@@ -1,7 +1,6 @@
 body {
     background-color: rgb(170, 165, 165);
 }
-
 header {
     max-width: 920px;
     background-color: rgb(228, 218, 218);
@@ -10,7 +9,6 @@ header {
     justify-content: space-around;
     font-family: Arial, Futura;
 }
-
 main {
     max-width: 920px;
     background-color: rgb(228, 218, 218);
@@ -19,7 +17,6 @@ main {
     justify-content: space-around;
     font-family: Arial, Futura;
 }
-
 footer {
     max-width: 920px;
     background-color: rgb(228, 218, 218);
@@ -32,17 +29,16 @@ footer {
 
 aside {
     flex: 1;
+   
 }
-
 article {
-    flex: 1; 
+    flex: 1;
+    
 }
-
 section {
-    text-align: center;
+    margin-left: 30px;
     flex: 1;
 }
-
 figure {
     display: block;
     margin-left: auto;
@@ -52,6 +48,10 @@ figure {
 h4 {
     text-align: center;
     text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
 }
 
 p {
@@ -69,6 +69,5 @@ a {
 }
 
 .foto {
-   
     margin-right: 20px;
 }
