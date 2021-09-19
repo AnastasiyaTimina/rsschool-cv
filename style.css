@@ -6,9 +6,7 @@ body {
 /*----------HEADER -----------*/
 header {
     margin:0;
-  
     background-color:white;
-    
 }
 .header_block {
     max-width: 980px;
